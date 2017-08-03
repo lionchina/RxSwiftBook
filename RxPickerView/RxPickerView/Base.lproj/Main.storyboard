@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RxPickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Js8-v0-Lj6">
+                                <rect key="frame" x="0.0" y="20" width="375" height="215.5"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KT1-HL-a5o">
+                                <rect key="frame" x="0.0" y="235.5" width="375" height="216"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j0W-Ip-4Vt">
+                                <rect key="frame" x="0.0" y="451.5" width="375" height="215.5"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KT1-HL-a5o" firstAttribute="height" secondItem="Js8-v0-Lj6" secondAttribute="height" id="A56-vH-dwu"/>
+                            <constraint firstItem="j0W-Ip-4Vt" firstAttribute="height" secondItem="Js8-v0-Lj6" secondAttribute="height" id="FkD-SZ-bvy"/>
+                            <constraint firstItem="j0W-Ip-4Vt" firstAttribute="top" secondItem="KT1-HL-a5o" secondAttribute="bottom" id="HgP-LX-Arg"/>
+                            <constraint firstItem="Js8-v0-Lj6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="IIi-G0-489"/>
+                            <constraint firstAttribute="trailing" secondItem="Js8-v0-Lj6" secondAttribute="trailing" id="YOl-ny-TvH"/>
+                            <constraint firstItem="KT1-HL-a5o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aQc-CX-jja"/>
+                            <constraint firstAttribute="trailing" secondItem="j0W-Ip-4Vt" secondAttribute="trailing" id="adM-JY-0fZ"/>
+                            <constraint firstItem="j0W-Ip-4Vt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cyH-Gn-0cv"/>
+                            <constraint firstItem="KT1-HL-a5o" firstAttribute="top" secondItem="Js8-v0-Lj6" secondAttribute="bottom" id="eIW-ac-EHM"/>
+                            <constraint firstItem="Js8-v0-Lj6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jKU-qk-GtP"/>
+                            <constraint firstAttribute="bottom" secondItem="j0W-Ip-4Vt" secondAttribute="bottom" id="kBz-Zf-dDY"/>
+                            <constraint firstItem="KT1-HL-a5o" firstAttribute="top" secondItem="Js8-v0-Lj6" secondAttribute="bottom" id="kCF-hl-7jc"/>
+                            <constraint firstAttribute="trailing" secondItem="KT1-HL-a5o" secondAttribute="trailing" id="xVt-2S-Pnk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pickerView1" destination="Js8-v0-Lj6" id="CWc-jd-7kP"/>
+                        <outlet property="pickerView2" destination="KT1-HL-a5o" id="Nlq-oC-oqh"/>
+                        <outlet property="pickerView3" destination="j0W-Ip-4Vt" id="jaW-DX-Df2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>
