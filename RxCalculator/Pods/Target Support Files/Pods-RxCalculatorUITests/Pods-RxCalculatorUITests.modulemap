@@ -1,0 +1,6 @@
+framework module Pods_RxCalculatorUITests {
+  umbrella header "Pods-RxCalculatorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
