@@ -1,0 +1,6 @@
+framework module Pods_RxPickerViewCustomTests {
+  umbrella header "Pods-RxPickerViewCustomTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
