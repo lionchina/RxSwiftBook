@@ -1,0 +1,6 @@
+framework module Pods_RxTableViewWithSectionTests {
+  umbrella header "Pods-RxTableViewWithSectionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
