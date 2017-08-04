@@ -1,0 +1,6 @@
+framework module Pods_RxValidationUITests {
+  umbrella header "Pods-RxValidationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
