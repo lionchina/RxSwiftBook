@@ -1,0 +1,6 @@
+framework module Pods_RxTableViewPartialUpdatesUITests {
+  umbrella header "Pods-RxTableViewPartialUpdatesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
